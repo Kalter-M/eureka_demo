@@ -1,0 +1,4 @@
+rootProject.name = 'eureka_demo'
+include 'user'
+include 'say-hello'
+

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: user
+
+server:
+  port: 8888
+#  eureka:
+#    client:
+#      registerWithEureka: false
+#      fetchRegistry: false
+
+say-hello:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8090,localhost:8091
+    ServerListRefreshInterval: 15000
