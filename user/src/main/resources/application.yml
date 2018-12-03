@@ -4,10 +4,6 @@ spring:
 
 server:
   port: 8888
-#  eureka:
-#    client:
-#      registerWithEureka: false
-#      fetchRegistry: false
 
 say-hello:
   ribbon:
